@@ -370,8 +370,8 @@ function M.get(config)
     -- NeoTreeFileNameOpened = {},
     -- NeoTreeFilterTerm = {},
     -- NeoTreeFloatBorder = {},
-    NeoTreeFloatTitle = { fg = p.white },
-    -- NeoTreeTitleBar = {},
+    -- NeoTreeFloatTitle = {},
+    NeoTreeTitleBar = { fg = p.text },
     NeoTreeGitAdded = { fg = groups.git_add },
     NeoTreeGitConflict = { fg = groups.git_dirty },
     NeoTreeGitDeleted = { fg = groups.git_delete },
@@ -394,7 +394,6 @@ function M.get(config)
     -- NeoTreeEndOfBuffer = {},
     -- NeoTreeRootName = {},
     -- NeoTreeSymbolicLinkTarget = {},
-    -- NeoTreeTitleBar = {},
     -- NeoTreeWindowsHidden = {},
 
     -- folke/which-key.nvim

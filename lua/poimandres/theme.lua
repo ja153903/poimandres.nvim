@@ -370,7 +370,7 @@ function M.get(config)
     -- NeoTreeFileNameOpened = {},
     -- NeoTreeFilterTerm = {},
     -- NeoTreeFloatBorder = {},
-    NeoTreeFloatTitle = { fg = p.text },
+    NeoTreeFloatTitle = { fg = p.white },
     -- NeoTreeTitleBar = {},
     NeoTreeGitAdded = { fg = groups.git_add },
     NeoTreeGitConflict = { fg = groups.git_dirty },
